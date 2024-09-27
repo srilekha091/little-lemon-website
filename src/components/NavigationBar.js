@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 
 const NavigationBar = (props) => {
 	return (
-		<div>
-			<img src='/images/1.png' alt='logo' />
+		<nav>
+			<img src='./logo.png' alt='logo' />
 			<ul>
 				<li>
 					<a href='/home'>Home</a>
@@ -22,7 +22,7 @@ const NavigationBar = (props) => {
 					<a href='/login'>Login</a>
 				</li>
 			</ul>
-		</div>
+		</nav>
 	);
 };
 
