@@ -1,10 +1,10 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import './NavigationBar.css';
 
-const NavigationBar = (props) => {
+const NavigationBar = () => {
 	return (
-		<nav>
-			<img src='./logo.png' alt='logo' />
+		<nav className='navHeader'>
+			{/* <img src='./asset.png' alt='logo'></img> */}
 			<ul>
 				<li>
 					<a href='/home'>Home</a>

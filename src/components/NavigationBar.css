@@ -1,0 +1,26 @@
+nav {
+	background-color: #333333;
+	border-radius: 0.5%;
+	padding: 0.5%;
+}
+nav ul {
+	list-style: none;
+	font-size: 1.5rem;
+	text-align: center;
+}
+nav ul li {
+	display: inline-block;
+	/* margin: 0.25rem; */
+	padding: 0.5rem;
+}
+nav ul a {
+	text-decoration: none;
+	color: aliceblue;
+}
+nav ul a:active {
+	text-decoration: underline;
+}
+nav ul a:hover {
+	color: #ee9972;
+	text-decoration: underline;
+}
