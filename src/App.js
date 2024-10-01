@@ -7,7 +7,6 @@ import Footer from './components/Footer';
 function App() {
 	return (
 		<div className='App'>
-			{/* // 	<h1 className='Heading'>Little Lemon Website</h1> */}
 			<NavigationBar />
 			<Homepage />
 			<MainMenu />

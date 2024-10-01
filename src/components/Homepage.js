@@ -1,9 +1,12 @@
 import React from 'react';
 import './Homepage.css';
+import BookingPage from './BookingPage';
+import logo from '../Images/logo.png';
 
 const Homepage = () => {
 	const reserveATable = () => {
-		console.log('Reserve a Table');
+		//console.log('Reserve a Table');
+		return <BookingPage />;
 	};
 	return (
 		<div className='Homepage'>
@@ -18,9 +21,9 @@ const Homepage = () => {
 					Reserve a table
 				</button>
 			</div>
-			<div className='homePagePic'>
-				<img src='./homepagePic.jpg' alt='pic' />
-			</div>
+			{/* <div className='homePagePic'>
+				<img src={logo} alt='pic' />
+			</div> */}
 		</div>
 	);
 };

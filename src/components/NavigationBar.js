@@ -1,27 +1,32 @@
 import React from 'react';
 import './NavigationBar.css';
+import logo from '../Images/banner.png';
 
 const NavigationBar = () => {
 	return (
 		<nav className='navHeader'>
-			{/* <img src='./asset.png' alt='logo'></img> */}
-			<ul>
-				<li>
-					<a href='/home'>Home</a>
-				</li>
-				<li>
-					<a href='/about'>About</a>
-				</li>
-				<li>
-					<a href='/reservations'>Reservations</a>
-				</li>
-				<li>
-					<a href='/order'>Order Online</a>
-				</li>
-				<li>
-					<a href='/login'>Login</a>
-				</li>
-			</ul>
+			{/* <div className='logoDiv'>
+				<img src={logo} alt='logo' id='logo' />
+			</div> */}
+			<div className='linkDiv'>
+				<ul>
+					<li>
+						<img src={logo} alt='logo' id='logo' />
+					</li>
+					<li>
+						<a href='/home'>Home</a>
+					</li>
+					<li>
+						<a href='/about'>Menu</a>
+					</li>
+					<li>
+						<a href='/reservations'>Book</a>
+					</li>
+					<li>
+						<a href='/order'>About</a>
+					</li>
+				</ul>
+			</div>
 		</nav>
 	);
 };
