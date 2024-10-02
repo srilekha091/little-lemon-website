@@ -1,8 +1,6 @@
 import React from 'react';
 import './Homepage.css';
 import BookingPage from './BookingPage';
-import logo from '../Images/logo.png';
-
 const Homepage = () => {
 	const reserveATable = () => {
 		//console.log('Reserve a Table');
@@ -21,9 +19,6 @@ const Homepage = () => {
 					Reserve a table
 				</button>
 			</div>
-			{/* <div className='homePagePic'>
-				<img src={logo} alt='pic' />
-			</div> */}
 		</div>
 	);
 };
