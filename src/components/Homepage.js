@@ -21,7 +21,7 @@ const Homepage = () => {
 					Reserve a table
 				</button>
 			</div>
-			{showform && <BookingPage props={toggleForm} />}
+			{showform && <BookingPage toggleForm={toggleForm} />}
 		</div>
 	);
 };
