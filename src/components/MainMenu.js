@@ -5,7 +5,7 @@ const MainMenu = () => {
 	return (
 		<section className='section'>
 			<article className='sub-section'>
-				<h1>Our Menu</h1>
+				<h1 className='section-title'>Our Menu</h1>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 					eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum
@@ -14,7 +14,7 @@ const MainMenu = () => {
 				<p>See our new menu</p>
 			</article>
 			<article className='sub-section'>
-				<h1>Book a table</h1>
+				<h1 className='section-title'>Book a table</h1>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 					eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum
@@ -23,7 +23,7 @@ const MainMenu = () => {
 				<p>Book your table</p>
 			</article>
 			<article className='sub-section'>
-				<h1>Opening Hours</h1>
+				<h1 className='section-title'>Opening Hours</h1>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 					eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum

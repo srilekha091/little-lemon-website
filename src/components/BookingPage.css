@@ -1,0 +1,39 @@
+.reservationForm {
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	position: fixed;
+}
+.reservationForm-modal {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	line-height: 1.4;
+	background: #edefee;
+	padding: 14px 28px;
+	border-radius: 1rem;
+	max-width: 600px;
+	min-width: 300px;
+}
+.reservation-title {
+	text-align: center;
+	color: rgb(73, 94, 87);
+	margin-bottom: 0.5rem;
+	padding: 0.25rem;
+}
+.field {
+	margin-bottom: 0.5rem;
+	justify-content: center;
+}
+.reserve-submitBtn {
+	background-color: #f4ce14;
+	padding: 0.5rem;
+	margin: 0.5rem;
+	font-size: 1rem;
+	font-weight: bold;
+	border-radius: 0;
+}
