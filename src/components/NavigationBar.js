@@ -1,6 +1,7 @@
 import React from 'react';
 import './NavigationBar.css';
 import logo from '../Images/banner.png';
+import { Route, Routes } from 'react-router-dom';
 
 const NavigationBar = () => {
 	return (
