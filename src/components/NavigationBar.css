@@ -1,27 +1,21 @@
-nav {
+.navHeader {
 	background-color: #333333;
 	border-radius: 0.5%;
-	padding: 0.25%;
-}
-nav ul {
-	list-style: none;
+	padding: 0.5rem;
 	display: flex;
-	align-items: center;
 	justify-content: center;
 }
-
-nav ul li {
-	padding: 0.5rem;
-}
-nav ul a {
+.nav-item {
 	text-decoration: none;
 	color: aliceblue;
 	font-size: 1.5rem;
+	padding: 0.5rem;
 }
-nav ul a:active {
-	text-decoration: underline;
+
+.navHeader:active {
+	text-decoration: dotted;
 }
-nav ul a:hover {
+.navHeader .nav-item :hover {
 	color: #f4ce14;
 }
 #logo {
