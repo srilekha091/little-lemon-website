@@ -24,26 +24,6 @@ const NavigationBar = () => {
 				<Link to='/about' className='nav-item'>
 					About
 				</Link>
-
-				{/*
-				<ul>
-					<li>
-						<img src={logo} alt='logo' id='logo' />
-					</li>
-					<li>
-						<a href='/home'>Home</a>
-					</li>
-					<li>
-						<a href='/about'>Menu</a>
-					</li>
-					<li>
-						<a href='/reservations'>Book</a>
-					</li>
-					<li>
-						<a href='/order'>About</a>
-					</li>
-				</ul>
-			 */}
 			</nav>
 			<Routes>
 				<Route path='/home-page' element={<Homepage />} />
